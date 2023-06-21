@@ -5,7 +5,7 @@ This Docker image provides a collection of tools used in RNA sequence analysis. 
 - StringTie 2.2.1
 - Htslib 1.3.2
 - SAMtools 1.3.1
-- R programming language with BiocManager packages and ballgown
+- R programming language
 ### Usage
 To use this Docker image, you need to have Docker installed on your system. Once Docker is installed, you can follow these steps:
 1、Build the Docker image using the provided Dockerfile:
@@ -26,8 +26,8 @@ StringTie is a fast and accurate software for transcript assembly and quantifica
 Htslib is a C library for reading/writing high-throughput sequencing data, such as SAM and BAM files.
 #### SAMtools 1.3.1
 SAMtools is a suite of utilities for manipulating alignments in the SAM/BAM format.
-#### R Programming Language with BiocManager Packages and ballgown
-This image includes the R programming language along with BiocManager packages, including ballgown for differential expression analysis of RNA-Seq data.
+#### R Programming Language
+This image includes the R programming language along with BiocManager packages, including ballgown、genefilter、dplyr and devtools for differential expression analysis of RNA-Seq data.
 ### Contributing
 If you find any issues or have suggestions for improvements, please feel free to contribute by opening an issue or submitting a pull request on the GitHub repository.
 
